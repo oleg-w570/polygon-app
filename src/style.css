@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота окна браузера */
+}
+
+.container {
+    display: flex;
+    border: 2px solid #333;
+    background-color: #333;
+}
+
+polygon-canvas {
+    width: 500px;
+    height: 500px;
+    background-color: #999;
+    position: relative;
+    margin-right: 10px;
+}
+
+control-panel {
+    width: 200px;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #555;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #333;
+    cursor: not-allowed;
+}
+
+.path-info {
+    margin-top: 10px;
+}
